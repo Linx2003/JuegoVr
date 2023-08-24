@@ -1,0 +1,366 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 8015 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nerrg/OneDrive/Documentos/GitHub/JuegoVr/Prueba
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51729
+Successfully changed project path to: C:/Users/nerrg/OneDrive/Documentos/GitHub/JuegoVr/Prueba
+C:/Users/nerrg/OneDrive/Documentos/GitHub/JuegoVr/Prueba
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 114.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nerrg/OneDrive/Documentos/GitHub/JuegoVr/Prueba/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   Intel
+    VRAM:     4007 MB
+    Driver:   27.20.100.8853
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005248 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 116.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nerrg\OneDrive\Documentos\GitHub\JuegoVr\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nerrg\OneDrive\Documentos\GitHub\JuegoVr\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1617ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1196ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3630 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 4090.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 3.468200 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.297200 ms MarkObjects: 2.669700 ms  DeleteObjects: 0.114300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9825.955286 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsBlue.mat
+  artifactKey: Guid(7a8042e1c04b17e42952328cc14b88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsBlue.mat using Guid(7a8042e1c04b17e42952328cc14b88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b15cf2d089aac495e8c85c74012c28b') in 0.186587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquad.mat
+  artifactKey: Guid(e89ca331a70b1eb41a2885926c5b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquad.mat using Guid(e89ca331a70b1eb41a2885926c5b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddc2150015c42196c2d80c9b8faf334') in 0.042443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsLightBlue.mat
+  artifactKey: Guid(510338fd5884cf44aaef2ec783fe3d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsLightBlue.mat using Guid(510338fd5884cf44aaef2ec783fe3d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8a049eb75e9652ff8ba5dc96b6d07c') in 0.046155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsPurple.mat
+  artifactKey: Guid(fb43c9ca1e7772c499812fea302dd2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsPurple.mat using Guid(fb43c9ca1e7772c499812fea302dd2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152095ba74c5c531e1807bcb73b6db84') in 0.043770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskyTexture 1.mat
+  artifactKey: Guid(17058de9311175243ba2aa00b9aebd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskyTexture 1.mat using Guid(17058de9311175243ba2aa00b9aebd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9659708ad41bf9489151a687b142ab5b') in 0.039708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquadScreen.mat
+  artifactKey: Guid(e536609101f475a4a8107011e34e19fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquadScreen.mat using Guid(e536609101f475a4a8107011e34e19fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd492b570815b6ad97a342d4ea739b0a') in 0.037557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsYellow.mat
+  artifactKey: Guid(58961acea133c1e4a917d67844331c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsYellow.mat using Guid(58961acea133c1e4a917d67844331c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d19d41d8cefa427eb4ff40eb99f5d9b') in 0.038751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardXOXOXOSCREEN.mat
+  artifactKey: Guid(287d2f25756cf41449b414df76ffc866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardXOXOXOSCREEN.mat using Guid(287d2f25756cf41449b414df76ffc866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ca99340a9d8e947f4613a06996b20b') in 0.034231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/Blank.mat
+  artifactKey: Guid(c1c1f3f4b6fa922408bd68023a3440ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/Blank.mat using Guid(c1c1f3f4b6fa922408bd68023a3440ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25786c650c71f093cda3aa8a9ac47bc') in 0.050391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAlientoxSCREEN.mat
+  artifactKey: Guid(4dd2d8b413c9e2542869672e2ccbf08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAlientoxSCREEN.mat using Guid(4dd2d8b413c9e2542869672e2ccbf08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09f7df368235a9c32d705541dff711a') in 0.040083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAlientox.mat
+  artifactKey: Guid(ed13ad35851e28a4183f5c4492ea112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAlientox.mat using Guid(ed13ad35851e28a4183f5c4492ea112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a83cb82e84f2f1a9ee638bd77f8bb94') in 0.037994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskyTexture.mat
+  artifactKey: Guid(c6a0e8101c4f2ee4f92dca4ea7e113df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskyTexture.mat using Guid(c6a0e8101c4f2ee4f92dca4ea7e113df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c627fe0ec28723629adbb8f7631428a8') in 0.048118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ChairTallTexture.mat
+  artifactKey: Guid(02b2c0ed4f9518f47b69cd4bb8c6202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ChairTallTexture.mat using Guid(02b2c0ed4f9518f47b69cd4bb8c6202b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb2b969754a87949f43f31f6ee1c555') in 0.039964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardXOXOXO.mat
+  artifactKey: Guid(1b985ee7f56db4b41bd36c1b689007cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardXOXOXO.mat using Guid(1b985ee7f56db4b41bd36c1b689007cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0b0f317960e972b9d5a7407a87a555') in 0.041560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/Material.mat
+  artifactKey: Guid(f11b78a7f662a0245ac51ecf83f481f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/Material.mat using Guid(f11b78a7f662a0245ac51ecf83f481f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afc964444bfa3055b5a2cc84eb525de') in 0.027986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsOrange.mat
+  artifactKey: Guid(dc5afe932afbaa64d9edcc6095bb6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsOrange.mat using Guid(dc5afe932afbaa64d9edcc6095bb6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efed3858066c4fed1eaf641033e449b') in 0.043429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardHotLavaSCREENtexture.mat
+  artifactKey: Guid(6c4592a66b3aa7b43bc097de41b95ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardHotLavaSCREENtexture.mat using Guid(6c4592a66b3aa7b43bc097de41b95ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0254e9f1229b36da1ba5f41589446ce') in 0.035369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsRed.mat
+  artifactKey: Guid(600ec351a06099241b7fbb3500fdd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsRed.mat using Guid(600ec351a06099241b7fbb3500fdd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729b842444356b67b0a606985289377b') in 0.039921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/TableTopNNeutronus.mat
+  artifactKey: Guid(8089a8f089f969a44942e0a501b6edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/TableTopNNeutronus.mat using Guid(8089a8f089f969a44942e0a501b6edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36461e392ffe1cd4c2dfeecc62f4c0d9') in 0.040441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/while.mat
+  artifactKey: Guid(dc0be374a33cd2f4c827d2a3955159fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/while.mat using Guid(dc0be374a33cd2f4c827d2a3955159fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f057e53bd7b1247aa2adf6d0123d595f') in 0.030818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials
+  artifactKey: Guid(cd5f43bee018332468d05bcc7d3796d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials using Guid(cd5f43bee018332468d05bcc7d3796d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5ee31eb000d56ae722af3b5ac7a57d') in 0.035768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsGreen.mat
+  artifactKey: Guid(f1cddc56f54b37d4492e077601cc3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsGreen.mat using Guid(f1cddc56f54b37d4492e077601cc3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2e3ee5ac538bce31fbd7850ee02e4d') in 0.034743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/Floor.mat
+  artifactKey: Guid(68947972288e7ea49a9ec21089e61a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/Floor.mat using Guid(68947972288e7ea49a9ec21089e61a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01151a33080550ec5cfd5f20ff4e694a') in 0.038159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/TableTopBarred.mat
+  artifactKey: Guid(26271933147b1924fbacbc549c5b48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/TableTopBarred.mat using Guid(26271933147b1924fbacbc549c5b48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60756930e86348b5fe908f8ae4c86f7') in 0.047251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/No Name.mat
+  artifactKey: Guid(71bd90a922fb266449190abd218b79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/No Name.mat using Guid(71bd90a922fb266449190abd218b79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2a49817b4493fc9051c97b30172fd2') in 0.046874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsBlack.mat
+  artifactKey: Guid(c37a86dbcb57fb24ab30e15bdfe89a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ControlsBlack.mat using Guid(c37a86dbcb57fb24ab30e15bdfe89a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c984b675c3b8b7daa215c8893a0eadd1') in 0.049282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskySCREENTexture.mat
+  artifactKey: Guid(e8ffb560df386514ca8f1af117f560dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskySCREENTexture.mat using Guid(e8ffb560df386514ca8f1af117f560dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5023eb6981331dc79c16c5311fe2584f') in 0.031119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardHotLavaFBX.mat
+  artifactKey: Guid(14a7554fcdbb44944b800d691a97832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dependency/AurynSky/Arcade Pack 01/Materials/ArcadeStandardHotLavaFBX.mat using Guid(14a7554fcdbb44944b800d691a97832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3a79560bada48cc9842e7b258627de') in 0.039697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.626392 seconds.
+  path: Assets/Settings/SSAO_Pipeline 1.asset
+  artifactKey: Guid(947c017b3e80b064f9a177e710e91de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SSAO_Pipeline 1.asset using Guid(947c017b3e80b064f9a177e710e91de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe548f5ff3b69cc674fe9cc0baeefa06') in 0.019291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Settings/SSAO_Renderer 1.asset
+  artifactKey: Guid(8031c9cc1ccca644b9da7dc59e201742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SSAO_Renderer 1.asset using Guid(8031c9cc1ccca644b9da7dc59e201742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7e064fc22449d96dfd437513a6f642') in 0.019940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Settings/URP -rendring_Renderer.asset
+  artifactKey: Guid(06c4abcca57aa8d47a4843b72b7408db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP -rendring_Renderer.asset using Guid(06c4abcca57aa8d47a4843b72b7408db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a5891955476a9baf7412a74ba6f1a0') in 0.034745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/URP -rendring.asset
+  artifactKey: Guid(c55057181ad501a4987f0420e5ec4b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP -rendring.asset using Guid(c55057181ad501a4987f0420e5ec4b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd718a734128398b5ab2501968e1dd58') in 0.029661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 254.404810 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(b3a2608d0804ffd4ca27b2af601d86d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(b3a2608d0804ffd4ca27b2af601d86d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e089060e2f4c98b82d4bb881591f5952') in 0.022072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.824933 seconds.
+  path: Assets/Settings/New Render Texture.renderTexture
+  artifactKey: Guid(e96059bf724458a488b99b4139f8dfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Render Texture.renderTexture using Guid(e96059bf724458a488b99b4139f8dfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e384fb876c053bf6a2d010a21b8ae7') in 0.105660 seconds 
